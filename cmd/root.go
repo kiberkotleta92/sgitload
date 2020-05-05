@@ -37,6 +37,9 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "sgitload [link to github file] > [destination]",
 	Short: "Downloads single file from github and prints to stdout",
+	Long: `Downloads single file from github and prints to stdout
+
+ by kirilldenisov`,
 
 	RunE: func(cmd *cobra.Command, args []string) error {
 		if len(args) < 1 {
