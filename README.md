@@ -8,6 +8,7 @@ Created cause highly demanded by myself
 ```
 go get github.com/kirilldenisov/sgitload/*
 ```
+Or just download ```sgitload_linux``` / ```sgitload_macos``` binary to your local machine
 
 ### to use
 ```
